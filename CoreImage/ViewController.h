@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property UIImageView * imageView;
 
-
+- (void)markFaces:(UIImageView*)facePicture;
 @end
 

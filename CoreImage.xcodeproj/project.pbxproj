@@ -16,6 +16,8 @@
 		253D87B91C75F78F00A1A80B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253D87B71C75F78F00A1A80B /* LaunchScreen.storyboard */; };
 		253D87C41C75F78F00A1A80B /* CoreImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253D87C31C75F78F00A1A80B /* CoreImageTests.m */; };
 		253D87CF1C75F78F00A1A80B /* CoreImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253D87CE1C75F78F00A1A80B /* CoreImageUITests.m */; };
+		253D87DD1C75F83300A1A80B /* imageTest.png in Resources */ = {isa = PBXBuildFile; fileRef = 253D87DC1C75F83300A1A80B /* imageTest.png */; };
+		253D87DF1C76055A00A1A80B /* imageTest2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 253D87DE1C76055A00A1A80B /* imageTest2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		253D87CA1C75F78F00A1A80B /* CoreImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		253D87CE1C75F78F00A1A80B /* CoreImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreImageUITests.m; sourceTree = "<group>"; };
 		253D87D01C75F78F00A1A80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253D87DC1C75F83300A1A80B /* imageTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageTest.png; sourceTree = "<group>"; };
+		253D87DE1C76055A00A1A80B /* imageTest2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageTest2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 		253D87A51C75F78E00A1A80B /* CoreImage */ = {
 			isa = PBXGroup;
 			children = (
+				253D87DC1C75F83300A1A80B /* imageTest.png */,
+				253D87DE1C76055A00A1A80B /* imageTest2.jpg */,
 				253D87A91C75F78E00A1A80B /* AppDelegate.h */,
 				253D87AA1C75F78E00A1A80B /* AppDelegate.m */,
 				253D87AC1C75F78E00A1A80B /* ViewController.h */,
@@ -246,7 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253D87DF1C76055A00A1A80B /* imageTest2.jpg in Resources */,
 				253D87B91C75F78F00A1A80B /* LaunchScreen.storyboard in Resources */,
+				253D87DD1C75F83300A1A80B /* imageTest.png in Resources */,
 				253D87B61C75F78E00A1A80B /* Assets.xcassets in Resources */,
 				253D87B11C75F78E00A1A80B /* Main.storyboard in Resources */,
 			);
